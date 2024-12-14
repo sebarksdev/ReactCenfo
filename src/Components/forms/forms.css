@@ -1,0 +1,44 @@
+
+.formTable {
+    background-color: rgb(102, 62, 62);
+    color: white;
+    font-size: large;
+    margin: 10px 0px 20px 0px;
+    border-radius: 10px;
+    box-shadow: 17px 15px 50px black;
+  }
+  
+  .formTable td {
+    padding: 10px;
+  }
+  
+  .subtable {
+    background-color:white;
+    width:90%;
+    color:black;
+    border-radius: 5px;
+    margin-left: 50px;
+  }
+  
+  .subtable td{
+    padding: 5px;
+  }
+  
+  .formButton {
+    width: 200px;
+    background-color: rgb(63, 59, 59);
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px 18px;
+    border-radius: 10px;
+    align-self: center;
+    align-content: center;
+    margin-left: 330px;
+    margin-bottom: 10px;
+  }
+  
+  .formButton:active {
+    background-color: #8f8e8a;
+  }

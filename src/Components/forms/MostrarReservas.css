@@ -1,0 +1,64 @@
+.reservas-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto; /* Centra el contenedor en la página */
+  text-align: center;
+  margin-bottom: 100px;
+  min-width: 50%;
+}
+
+.reservas-tabla {
+  width: 100%; /* Asegura que ocupe todo el espacio disponible */
+  max-width: 100%; /* No deja que se desborde */
+  margin: 0 auto; /* Esto centra la tabla dentro de su contenedor */
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.reservas-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.no-reservas {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+}
+
+.reservas-tabla thead {
+  background-color: rgb(63, 59, 59);
+  color: white;
+}
+
+.reservas-tabla th,
+.reservas-tabla td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+  min-width: 120px; /* Puedes ajustar este valor según lo necesites */
+}
+
+.reservas-tabla tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.reservas-tabla tr:hover {
+  background-color: #e9f5ff;
+}
+
+.reservas-tabla th {
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(63, 59, 59);
+  color: white;
+}
+
+.reservas-tabla td {
+  text-align: center;
+}
